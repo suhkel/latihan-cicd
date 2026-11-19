@@ -13,3 +13,6 @@ jobs:
       
       - name: Say Hello
         run: echo "Hello World from CI/CD!"
+
+      - name: Step Gagal
+        run: exit 1
